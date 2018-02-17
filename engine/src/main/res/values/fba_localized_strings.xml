@@ -15,7 +15,7 @@
     <string name="fba_report_build">"Build report"</string>
     <string name="fba_file_not_found">"File not found!"</string>
 
-    <string name="fba_toolkit_uses">"Used 'FBA Toolkit', © 2012-2015 Mobile solutions LLC, www.profi1c.ru"</string>
+    <string name="fba_toolkit_uses">Used \'SP Toolkit\', © 2018, www.stekloplast.ua</string>
     <string name="fba_wait">"Please wait…"</string>
     <string name="fba_exchange_start">"Running exchange…"</string>
     <string name="fba_exchange_success">"Exchange completed successfully."</string>
