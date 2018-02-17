@@ -20,7 +20,7 @@ android {
     buildToolsVersion pBuildToolsVersion
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion pTargetSdkVersion as int
         versionCode "$pBuildVersionCode" as int
         versionName "$pBuildVersion.$pBuildNumber"
@@ -56,12 +56,12 @@ android {
         abortOnError false
     }
 
-    buildToolsVersion '26.0.2'
+    buildToolsVersion pBuildToolsVersion
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.0.2'
     compile 'com.android.support:multidex:1.0.2'
     compile project(':engine')
     compile group: 'com.caverock', name: 'androidsvg', version:'1.2.2-beta-1'

@@ -14,7 +14,7 @@
     <string name="fba_report_build">"Построение отчета"</string>
     <string name="fba_file_not_found">"Файл не найден!"</string>
 
-	<string name="fba_toolkit_uses">Используется \'SP Toolkit\', © 2018, www.stekloplast.ua</string>
+	<string name="fba_toolkit_uses">Используется SP Toolkit (Bakum V), © 2018, www.stekloplast.ua</string>
      <!-- Подождите -->
     <string name="fba_wait">"Подождите…"</string>
     <!-- Запуск обмена с сервисом -->

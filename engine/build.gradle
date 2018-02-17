@@ -20,7 +20,7 @@ android {
     buildToolsVersion pBuildToolsVersion
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion pTargetSdkVersion as int
         versionCode "$pBuildVersionCode" as int
         versionName "$pBuildVersion.$pBuildNumber"
@@ -61,7 +61,7 @@ apply from: "build.workaround-missing-resource.gradle"
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.0.2'
     compile 'com.android.support:multidex:1.0.2'
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-core:1.9.5'
