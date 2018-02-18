@@ -11,6 +11,7 @@
         <EditTextPreference
             android:key="fba_key_user_password"
             android:summary="@string/fba_select_user_password"
+            android:inputType = "textPassword"
             android:title="@string/fba_password"/>
 
         <Preference
